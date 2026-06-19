@@ -10,10 +10,16 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@app/shared": "workspace:*"
+    "@app/shared": "workspace:*",
+    "@supabase/supabase-js": "^2.108.2",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "postgres": "^3.4.9"
   },
   "devDependencies": {
     "@app/config": "workspace:*",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.22.4",
     "typescript": "^5.7.2"
   }
 }
