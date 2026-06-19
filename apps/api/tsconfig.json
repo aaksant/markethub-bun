@@ -1,0 +1,15 @@
+{
+  "extends": "@app/config/tsconfig.base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": "./src",
+    "target": "ES2021",
+    "moduleResolution": "bundler",
+    "types": ["bun-types", "bun"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

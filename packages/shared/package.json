@@ -1,0 +1,16 @@
+{
+  "name": "@app/shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@app/config": "workspace:*",
+    "typescript": "^5.7.2"
+  }
+}

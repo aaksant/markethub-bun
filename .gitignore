@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+**/node_modules
+
+# Bun
+bun.lockb
+
+# Next.js
+.next
+out
+
+# Build outputs
+dist
+build
+coverage
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# TypeScript
+*.tsbuildinfo
