@@ -6,8 +6,13 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest",
-    "@app/shared": "workspace:*"
+    "@app/db": "workspace:*",
+    "@app/shared": "workspace:*",
+    "@better-auth/drizzle-adapter": "^1.6.19",
+    "@elysia/cors": "^1.4.2",
+    "better-auth": "^1.6.19",
+    "drizzle-orm": "^0.45.2",
+    "elysia": "latest"
   },
   "devDependencies": {
     "bun-types": "latest",
