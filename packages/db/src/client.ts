@@ -13,7 +13,7 @@ if (!connectionString) {
 }
 
 const client = postgres(connectionString);
-const supabaseUrl = process.env.SUAPABASE_URL!;
+const supabaseUrl = process.env.SUPABASE_URL!;
 const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
 
 if (!supabaseUrl || !supabaseServiceRoleKey) {
